@@ -9,5 +9,7 @@ module.exports = {
 
       //'('後の改行に関してのルール
       'function-paren-newline': 'off',
+
+       "object-curly-newline": ["error", {"consistent": true}],
     }
 };
