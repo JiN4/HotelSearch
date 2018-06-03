@@ -10,6 +10,8 @@ module.exports = {
       //'('後の改行に関してのルール
       'function-paren-newline': 'off',
 
-       "object-curly-newline": ["error", {"consistent": true}],
+      "object-curly-newline": ["error", {"consistent": true}],
+
+      "jsx-a11y/anchor-is-valid": [ "error", { "components": [ "Link" ], "specialLink": [ "to" ] } ],
     }
-};
+  };
