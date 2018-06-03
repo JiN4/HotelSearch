@@ -13,5 +13,7 @@ module.exports = {
       "object-curly-newline": ["error", {"consistent": true}],
 
       "jsx-a11y/anchor-is-valid": [ "error", { "components": [ "Link" ], "specialLink": [ "to" ] } ],
+
+      "react/sort-comp": 0,
     }
   };
