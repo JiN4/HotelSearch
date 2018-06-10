@@ -10,5 +10,14 @@ Reactの学習に簡易なWebサイトを作成する。
 ## install
 `$ yarn install`
 
+## client build
+`$ yarn run build`
+
+## client build watch
+`$ yarn run build:watch`
+
+## development
+`$ yarn run dev`
+
 ## Start-up
 `$ yarn run start`
